@@ -19,13 +19,13 @@
 		* **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
 
 > <!-- CSS BOOTSTRAP DIALOG --&#62;	
-> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css"&#62;
+> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css" &#62;
 >
 > <!-- JS BOOTSTRAP DIALOG --&#62;	
-> <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js"&#62;</script&#62;
+> <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js" &#62;</script&#62;
 >
 > <!-- Script que Envia envia ao php as mensagens --&#62;	
-> <script src="js/enviar.js"&#62;	</script&#62;	
+> <script src="js/enviar.js" &#62;	</script&#62;	
 
 	* **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
 	* do JQuery(js) e do Bootstrap.Dialog(css e js)
