@@ -3,15 +3,15 @@
 
 **FIST - Primeiro**
 - Configurar o arquivo: **configuracao-enviar.php**
-	* [1] Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
+	1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
 		- Exemplo:
 >
 > $url = "www.vitorpereira.com.br";
-	* [2] Colocar o email para o qual sera destinado o email quando o mesmo for separado
+	2 Colocar o email para o qual sera destinado o email quando o mesmo for separado
 		- Exemplo:
 >
 > $emailPara = "vitor_gja_@hotmail.com";
-	* [3] Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
+	3 Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
 		- Exemplo:
 >
 > $imgLogo = "imagens/logotipo.jpg";
