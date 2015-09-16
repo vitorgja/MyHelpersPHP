@@ -25,7 +25,8 @@
 > 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js" &#62;</script>
 >
 > 		<!-- Script que Envia envia ao php as mensagens -->
-> 		<script src="js/enviar.js"></script>	
+> 		<script src="js/enviar.js"></script>
+>
 
 		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
 		 do JQuery(js) e do Bootstrap.Dialog(css e js)
@@ -52,7 +53,7 @@
 
 **THIRD - Terceiro**
 
-- 
+  
 
 
 >	nome: <input type="text" name="nome">
