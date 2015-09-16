@@ -28,6 +28,7 @@
 > 		<script src="js/enviar.js"></script>
 >
 
+#asdasdasd
 		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
 		 do JQuery(js) e do Bootstrap.Dialog(css e js)
 
