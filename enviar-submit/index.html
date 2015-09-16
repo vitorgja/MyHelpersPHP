@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<!-- CSS BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- CSS BOOTSTRAP DIALOG -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- JS BOOTSTRAP -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- JS BOOTSTRAP DIALOG -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js"></script>
+
+		<!-- Script que Envia envia ao php as mensagens -->
+		<script src="js/enviar.js"></script>
+
+		<!-- Inicializa o JQuery Chamando a Função submit do arquivo "js/enviar.js" -->
+		<script>$( submit ); </script>
+	</head>
+	<body>
+		<form>
+			nome: <input name="nome">
+			<br>email: <input name="email">
+			<br>assunto: <input name="assunto">
+			<br>mensagem: <textarea name="mensagem"></textarea>
+			<br><button type="button" data-input="submit">enviar</button>
+		</form>
+	</body>
+</html>
