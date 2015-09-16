@@ -16,7 +16,7 @@
 **SECOND - Segundo**
 - Incluindo arquivos **necessarios**
 	* Voce já tem o Bootstrap e JQuery no seu projeto?
-		- **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
+		* **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
 ```
 <!-- CSS BOOTSTRAP DIALOG -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
@@ -27,7 +27,7 @@
 <!-- Script que Envia envia ao php as mensagens -->
 <script src="js/enviar.js"></script>
 ```	
-		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), do JQuery(js) e do Bootstrap.Dialog(css e js)
+	* **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), do JQuery(js) e do Bootstrap.Dialog(css e js)
 
 ```
 <!-- CSS BOOTSTRAP -->
