@@ -5,13 +5,19 @@
 - Configurar o arquivo: **configuracao-enviar.php**
 	- 1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
 		**Exemplo:*	
-		```$url = "www.vitorpereira.com.br";```
+```sh 
+$url = "www.vitorpereira.com.br";
+```
 	- 2 Colocar o email para o qual sera destinado o email quando o mesmo for separado
 		**Exemplo:**
-		```$emailPara = "vitor_gja_@hotmail.com";```
+```sh
+$emailPara = "vitor_gja_@hotmail.com";
+```
 	- 3 Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
 		**Exemplo**
-		```$imgLogo = "imagens/logotipo.jpg"; ```
+```sh
+$imgLogo = "imagens/logotipo.jpg";
+```
 
 **SECOND - Segundo**
 - Incluindo arquivos **necessarios**
@@ -22,11 +28,10 @@
  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
 
  		<!-- JS BOOTSTRAP DIALOG -->	
- 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js" &#62;</script>
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js"></script>
 
  		<!-- Script que Envia envia ao php as mensagens -->
  		<script src="js/enviar.js"></script>
-
 ```
 
 		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
@@ -56,14 +61,10 @@
 
   
 
-
->	nome: <input type="text" name="nome">
->
->	email: <input type="email" name="email">
->
->	assunto: <input type="text" name="assunto">
->
->	mensagem: <textarea name="mensagem"></textarea>
->
->	<button type="button" data-input="submit">enviar</button>
->
+```sh
+	nome: <input type="text" name="nome">
+	email: <input type="email" name="email">
+    assunto: <input type="text" name="assunto">
+    mensagem: <textarea name="mensagem"></textarea>
+    <button type="button" data-input="submit">enviar</button>
+```
