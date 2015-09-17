@@ -18,15 +18,15 @@
 	* Voce já tem o Bootstrap e JQuery no seu projeto?
 		- **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
 ```sh
-> 		<!-- CSS BOOTSTRAP DIALOG -->	
-> 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
->
-> 		<!-- JS BOOTSTRAP DIALOG -->	
-> 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js" &#62;</script>
->
-> 		<!-- Script que Envia envia ao php as mensagens -->
-> 		<script src="js/enviar.js"></script>
->
+ 		<!-- CSS BOOTSTRAP DIALOG -->	
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
+
+ 		<!-- JS BOOTSTRAP DIALOG -->	
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/js/bootstrap-dialog.min.js" &#62;</script>
+
+ 		<!-- Script que Envia envia ao php as mensagens -->
+ 		<script src="js/enviar.js"></script>
+
 ```
 
 		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
