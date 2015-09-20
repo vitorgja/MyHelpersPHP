@@ -62,9 +62,9 @@ $imgLogo = "imagens/logotipo.jpg";
   
 
 ```sh
-	nome: <input type="text" name="nome">
-	email: <input type="email" name="email">
-    assunto: <input type="text" name="assunto">
-    mensagem: <textarea name="mensagem"></textarea>
-    <button type="button" data-input="submit">enviar</button>
+	nome: <input type="text" `name="nome"`>
+	email: <input type="email" `name="email"`>
+    assunto: <input type="text" `name="assunto"`>
+    mensagem: <textarea `name="mensagem"`></textarea>
+    <button `type="button" data-input="submit"`>enviar</button>
 ```
