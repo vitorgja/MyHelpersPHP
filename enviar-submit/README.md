@@ -58,13 +58,26 @@ $imgLogo = "imagens/logotipo.jpg";
 ```		
 
 **THIRD - Terceiro**
-
-  
-
+- Atributos 'name' das Tags `<input>` e `<textarea>`
+	* name para o Nome do Usuario: 
 ```sh
 	nome: <input type="text" name="nome">
+```
+	* name para o Email do Usuario: 
+```sh
 	email: <input type="email" name="email">
+```
+	* name para o Assunto que o Usuario tratar: 
+```sh
     assunto: <input type="text" name="assunto">
+```
+	* name para a Mensagem Inserida pelo Usuario: 
+```sh
     mensagem: <textarea name="mensagem"></textarea>
+```
+
+- Atributos para Fazer o envio do Formulario com as Tags `<input>` e `<button>`
+	* **type** para o envio tem que ser **igual** a button e **data-input** **igual** a submit
+```sh
     <button type="button" data-input="submit">enviar</button>
 ```
