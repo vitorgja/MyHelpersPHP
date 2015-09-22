@@ -3,7 +3,7 @@ function submit(){
 	$("button[data-input=submit], input[data-input=submit]").click(function(){
 		var nome = $("input[name='nome']").val();
 		var email = $("input[name='email']").val();
-		var assunto = $("input[name='assunto']").val();
+		var assunto = $("input[name='assunto'], select[name='assunto']").val();
 		var mensagem = $("textarea[name='mensagem']").val();
 
 		$.ajax({
@@ -33,7 +33,7 @@ function submit(){
 					BootstrapDialog.show({
 						title: 'Erro',
 						type: BootstrapDialog.TYPE_DANGER, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
-						message: data.mensagem
+						message: data.mensagem + ''\n' + data.campos
 					});
 				}
 			}
