@@ -33,7 +33,7 @@ function submit(){
 					BootstrapDialog.show({
 						title: 'Erro',
 						type: BootstrapDialog.TYPE_DANGER, // <-- Default value is BootstrapDialog.TYPE_PRIMARY
-						message: data.mensagem + ''\n' + data.campos
+						message: data.mensagem + '\n' + data.campos
 					});
 				}
 			}
