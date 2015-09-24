@@ -58,7 +58,7 @@ $imgLogo = "imagens/logotipo.jpg";
 ```		
 
 **THIRD - Terceiro**
-###### Atributos 'name' das Tags `<input>` e `<textarea>`
+###### Atributos 'name' das Tags `<input>`, `<select>` e `<textarea>`
 * name para o Nome do Usuario: 
 ```html
 	nome: <input type="text" name="nome">
@@ -70,6 +70,13 @@ $imgLogo = "imagens/logotipo.jpg";
 * name para o Assunto que o Usuario tratar: 
 ```html
     assunto: <input type="text" name="assunto">
+    <!-- OU -->
+    assunto: 
+    <select name="assunto">
+    	<option value="">Selecione</option>
+    	<option value="Duvidas">Duvidas</option>
+    	<option value="Sugestoes">Sugestões</option>
+    </select>
 ```
 * name para a Mensagem Inserida pelo Usuario: 
 ```html
