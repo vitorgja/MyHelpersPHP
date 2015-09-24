@@ -5,25 +5,26 @@
 - Configurar o arquivo: **configuracao-enviar.php**
 	- 1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
 		**Exemplo:*	
-```sh 
+```php
 $url = "www.vitorpereira.com.br";
 ```
 	- 2 Colocar o email para o qual sera destinado o email quando o mesmo for separado
 		**Exemplo:**
-```sh
+```php
 $emailPara = "vitor_gja_@hotmail.com";
 ```
 	- 3 Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
 		**Exemplo**
-```sh
+```php
 $imgLogo = "imagens/logotipo.jpg";
 ```
 
 **SECOND - Segundo**
-- Incluindo arquivos **necessarios**
-	* Voce já tem o Bootstrap e JQuery no seu projeto?
-		- **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
-```sh
+
+### Incluindo arquivos **necessarios**
+* Voce já tem o Bootstrap e JQuery no seu projeto?
+	- **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
+```html
  		<!-- CSS BOOTSTRAP DIALOG -->	
  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">
 
@@ -33,14 +34,13 @@ $imgLogo = "imagens/logotipo.jpg";
  		<!-- Script que Envia envia ao php as mensagens -->
  		<script src="js/enviar.js"></script>
 ```
-
-		- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
+* Voce já tem o Bootstrap e JQuery no seu projeto?
+	- **NÃO** Então tera que incluir os arquivos do Bootstrap(css e js), 
 		 do JQuery(js) e do Bootstrap.Dialog(css e js)
 
-```sh
+```html
  		<!-- CSS BOOTSTRAP -->	
- 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
-
+ 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  		<!-- CSS BOOTSTRAP DIALOG -->	
  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.5/css/bootstrap-dialog.min.css">	
 
@@ -58,26 +58,26 @@ $imgLogo = "imagens/logotipo.jpg";
 ```		
 
 **THIRD - Terceiro**
-- Atributos 'name' das Tags `<input>` e `<textarea>`
+###### Atributos 'name' das Tags `<input>` e `<textarea>`
 	* name para o Nome do Usuario: 
-```sh
+```html
 	nome: <input type="text" name="nome">
 ```
 	* name para o Email do Usuario: 
-```sh
+```html
 	email: <input type="email" name="email">
 ```
 	* name para o Assunto que o Usuario tratar: 
-```sh
+```html
     assunto: <input type="text" name="assunto">
 ```
 	* name para a Mensagem Inserida pelo Usuario: 
-```sh
+```html
     mensagem: <textarea name="mensagem"></textarea>
 ```
 
-- Atributos para Fazer o envio do Formulario com as Tags `<input>` e `<button>`
+###### Atributos para Fazer o envio do Formulario com as Tags `<input>` e `<button>`
 	* **type** para o envio tem que ser **igual** a button e **data-input** **igual** a submit
-```sh
+```html
     <button type="button" data-input="submit">enviar</button>
 ```
