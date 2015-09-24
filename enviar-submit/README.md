@@ -1,8 +1,8 @@
 # Plugin Para Envio de Mensagem de Contato
 ## Itens Utilizados: PHP, JQuery, Bootstrap e Bootstrap.Dialog.
 
-**FIST - Primeiro**
-### Configurar o arquivo: **configuracao-enviar.php**
+### FIST - Primeiro**
+**Configurar o arquivo: `configuracao-enviar.php`.**
 - 1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
 
 > **Exemplo:**	
@@ -22,9 +22,9 @@ $emailPara = "vitor_gja_@hotmail.com";
 $imgLogo = "imagens/logotipo.jpg";
 ```
 
-**SECOND - Segundo**
+### SECOND - Segundo 
 
-### Incluindo arquivos **necessarios**
+**Incluindo arquivos** `necessarios`.
 * Voce já tem o Bootstrap e JQuery no seu projeto?
 	- **SIM** Basta apenas incluir 1 css e 1 js do Bootstrap.Dialog.
 ```html
@@ -60,8 +60,8 @@ $imgLogo = "imagens/logotipo.jpg";
  		<script src="js/enviar.js"></script>	
 ```		
 
-**THIRD - Terceiro**
-###### Atributos 'name' das Tags `<input>`, `<select>` e `<textarea>`
+### THIRD - Terceiro
+**Atributos 'name' das Tags** `<input>`**,** `<select>` **e** `<textarea>`
 * name para o Nome do Usuario: 
 ```html
 	nome: <input type="text" name="nome">
@@ -86,7 +86,7 @@ $imgLogo = "imagens/logotipo.jpg";
     mensagem: <textarea name="mensagem"></textarea>
 ```
 
-###### Atributos para Fazer o envio do Formulario com as Tags `<input>` e `<button>`
+**Atributos para Fazer o envio do Formulario com as Tags** `<input>` **e** `<button>`
 * **type** para o envio tem que ser **igual** a button e **data-input** **igual** a submit
 ```html
     <button type="button" data-input="submit">enviar</button>
