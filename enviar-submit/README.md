@@ -2,19 +2,22 @@
 ## Itens Utilizados: PHP, JQuery, Bootstrap e Bootstrap.Dialog.
 
 **FIST - Primeiro**
-- Configurar o arquivo: **configuracao-enviar.php**
-	- 1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
-		**Exemplo:*	
+### Configurar o arquivo: **configuracao-enviar.php**
+* 1 Colocar o endereço do Site em que sera aplicado o Plugin (sem os protocolos HTTP e HTTPS)
+
+>	**Exemplo:**	
 ```php
 $url = "www.vitorpereira.com.br";
 ```
-	- 2 Colocar o email para o qual sera destinado o email quando o mesmo for separado
-		**Exemplo:**
+- 2 Colocar o email para o qual sera destinado o email quando o mesmo for separado
+
+>	**Exemplo:**
 ```php
 $emailPara = "vitor_gja_@hotmail.com";
 ```
-	- 3 Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
-		**Exemplo**
+* 3 Imagem Logotipo do Site/Empresa, lembrando que é o caminho completo ex.: "img/logos/logo-2014.png"
+
+>	**Exemplo**
 ```php
 $imgLogo = "imagens/logotipo.jpg";
 ```
